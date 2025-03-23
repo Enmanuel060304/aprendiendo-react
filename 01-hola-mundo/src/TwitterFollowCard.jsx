@@ -18,7 +18,6 @@ export function TwitterFollowCard ({children,userName}) {
                 <span className='tw-followCard-infoUserName'>{userName} </span>
             </div>
             </header>
-
             <aside>
                 <button className={buttonClassName} onClick= {handleFollowClick}>
                     {text}    
